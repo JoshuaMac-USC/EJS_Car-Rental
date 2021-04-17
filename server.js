@@ -1,6 +1,10 @@
 // load the things we need
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
+
+
+//Middleware and Static
+app.use(express.static(__dirname+'/public'));
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
