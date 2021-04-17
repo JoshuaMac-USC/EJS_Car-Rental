@@ -26,6 +26,11 @@ app.get('/rentnow', function(req, res) {
     res.render('pages/rentpage');
 });
 
+//register page
+app.get('/register', function(req, res) {
+    res.render('pages/register');
+});
+
 
 app.listen(8080);
 console.log('8080 is the magic port');
