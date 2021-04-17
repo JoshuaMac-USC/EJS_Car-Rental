@@ -4,7 +4,7 @@ const app = express();
 
 
 //Middleware and Static
-app.use(express.static(__dirname+'/public'));
+app.use(express.static('public'));
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
