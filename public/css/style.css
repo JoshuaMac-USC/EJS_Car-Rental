@@ -1,13 +1,14 @@
-/*
-
-Known Template 
-
-https://templatemo.com/tm-516-known
-
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
 
+@font-face {
+  font-family: MCB;
+  src: url('../fonts/Momcake-Bold.otf');
+}
+
+@font-face {
+  font-family: MCT;
+  src: url('../fonts/Momcake-Thin.otf');
+}
 
 /*BOOTSTRAP OVERWRITE CODE*/
 
@@ -16,7 +17,6 @@ https://templatemo.com/tm-516-known
   padding: 0;
   top: 0;
 }
-
 
 /***************************/
 
@@ -27,46 +27,38 @@ https://templatemo.com/tm-516-known
     padding-top: 70px;
   }
 
-
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
 
   h1,h2,h3,h4,h5,h6 {
-    font-family: 'Muli', sans-serif;
+    font-family: 'MCB', sans-serif;
     font-weight: bold;
     line-height: inherit;
+    color: #333333;
   }
 
   h1 {
-    color: #252525;
-    font-size: 3em;
+    color: #FFFFFF;
+    font-size: 4rem;
     line-height: normal;
   }
 
   h2 {
-    color: #353535;
-    font-size: 2em;
-    padding-bottom: 10px;
+    font-size: 1.875rem;
   }
 
   h3 {
-    font-size: 1.5em;
-  }
-
-  h3,
-  h3 a {
-    color: #454545;
+    font-size: 1.25rem;
   }
 
   p {
-    color: #757575;
-    font-size: 14px;
+    color: #333333;
+    font-size: 0.8rem;
     font-weight: normal;
-    line-height: 24px;
+    line-height: 1.5;
+    text-align: justify;
   }
-
-
 
   /*---------------------------------------
      GENERAL               
@@ -213,8 +205,8 @@ https://templatemo.com/tm-516-known
     height: 100%;
   }
 
-  .hero__content h1, .hero__content h2, .hero__content p {
-    color: whitesmoke;
+ .hero__content h2, .hero__content p {
+    color: #FFFFFF;
   }
 
   /*---------------------------------------
@@ -392,7 +384,7 @@ https://templatemo.com/tm-516-known
       ABOUT              
   -----------------------------------------*/
 
-  #about figure {
+  /* #about figure {
     display: inline-block;
     vertical-align: top;
     margin-left: 15px;
@@ -415,9 +407,18 @@ https://templatemo.com/tm-516-known
     height: 50px;
     line-height: 50px;
     text-align: center;
+  } */
+
+
+
+  /*---------------------------------------
+      OFFERS
+  -----------------------------------------*/
+
+  #offer__row {
+    background-color: #EBEBEB;
+    padding-top: 60px;
   }
-
-
 
   /*---------------------------------------
       TEAM  // CARDS
@@ -450,10 +451,11 @@ https://templatemo.com/tm-516-known
   .team-info h3 {
     margin: 0;
   }
+
   /*---------------------------------------
       COURSES             
   -----------------------------------------*/
-
+/* 
   #courses .section-title {
     text-align: center;
   }
@@ -547,7 +549,7 @@ https://templatemo.com/tm-516-known
   }
 
   .courses-price span {
-    background: #29ca8e;
+    background: #fd6621;
     border-radius: 2px;
     color: #ffffff;
     display: block;
@@ -556,7 +558,7 @@ https://templatemo.com/tm-516-known
 
   .courses-price.free span {
     background: #3f51b5;
-  }
+  } */
 
 
 
@@ -565,11 +567,11 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #contact {
-    background: #3f51b5;
+    background: #FFFFFF;
   }
 
   #contact h2 {
-    color: #ffffff;
+    color: #333333;
   }
 
   #contact .section-title {
@@ -579,11 +581,11 @@ https://templatemo.com/tm-516-known
   #contact h2 > small,
   #contact p,
   #contact a {
-    color: #f9f9f9;
+    color: #333333;
   }
 
   #contact-form {
-    padding: 1em 0;
+    padding: 1rem 0;
   }
 
   #contact-form .col-md-12,
@@ -597,6 +599,7 @@ https://templatemo.com/tm-516-known
     border-radius: 5px;
     box-shadow: none;
     margin: 10px 0;
+    background-color: #EBEBEB;
   }
 
   #contact-form input {
@@ -604,14 +607,14 @@ https://templatemo.com/tm-516-known
   }
 
   #contact-form input[type='submit'] {
-    border-radius: 50px;
+    border-radius: 5px;
     border: 1px solid transparent;
   }
 
   #contact-form input[type='submit']:hover {
     background: transparent;
-    border-color: #ffffff;
-    color: #ffffff;
+    border-color: #E0E0E0;
+    color: #E0E0E0;
   }
   
 
@@ -622,46 +625,36 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   footer {
-    background: #252020;
+    background: #1f1f1f;
     padding: 45px 25px 35px 25px;
-    color: whitesmoke;
   }
 
-  footer span {
-    color:#909090;
-    font-size: 12px;
-    padding-bottom: 5px;
+  footer h2,
+  .footer__title {
+    color: #ffffff;
   }
 
-  .footer__company {
-    padding-right: 30px;
-  }
 
-  footer .section-title {
-    padding-bottom: 10px;
-  }
-
-  footer h1 {
-    color: whitesmoke;
-    font-size: 35px;
+  footer h2 {
+    font-size: 2.1875rem;
     font-weight: 600;
   }
 
+  footer .col-md-2 {
+    padding: 0.625rem;
+  }
+
   .footer__title {
-    font-size: 12px;
-    color: whitesmoke;
-    padding-bottom: 10px;
+    font-size: 1rem;
+    padding-bottom: 0.625rem;
   }
 
   footer a,
   footer p {
+    font-size: 0.75rem;
     color: #909090;
-    font-size: 12px;
   }
 
-  footer strong {
-    color: #d9d9d9;
-  }
   /*---------------------------------------
      SOCIAL ICON              
   -----------------------------------------*/
@@ -796,17 +789,17 @@ https://templatemo.com/tm-516-known
 
   .team-thumb-actions { padding: 10px; border-top: 1px solid rgba(0,0,0,.05); }
 
-  .section-btn.btn-primary { border-color: #29ca8e; color: #29ca8e; }
+  .section-btn.btn-primary { border-color: #333333; color: #333333; }
   .section-btn.btn-primary:focus,
   .section-btn.btn-primary:active,
   .section-btn.btn-primary:focus:active,
-  .section-btn.btn-primary:hover {background: #29ca8e; color: #fff; border-color: #29ca8e; }
+  .section-btn.btn-primary:hover {color: #ffffff;}
 
   .courses-thumb .lead,
   .team-info .lead { margin-bottom: 10px; }
 
   .courses-thumb .lead strong,
-  .team-info .lead strong { color: #29ca8e;}
+  .team-info .lead strong { color: #fd6621;}
 
   section,
   .section-background .item,
@@ -839,8 +832,6 @@ https://templatemo.com/tm-516-known
 ********************************************/
 
 .hero__content h1{
-
-  font-size: 2.8125rem;
   margin-bottom: 0;
   background: -webkit-linear-gradient(hsl(29, 78%, 44%), hsl(22, 64%, 58%), transparent);
   -webkit-background-clip: text;
@@ -849,24 +840,18 @@ https://templatemo.com/tm-516-known
 }
 
 .hero__content h2 {
-  color: hsl(0,0,95);
-  font-weight: 300;
-  font-size: 1.85rem;
   padding-bottom: 2rem;
 }
 
 .hero__content p {
-  line-height: 1.5;
-  color: hsl(0,0,95);
   margin-bottom: 2.25rem;
-  text-align: justify;
 }
 
   .btn {
     display: inline-block;
-    color: white;
+    color: #333333;
     font-size: 0.75rem;
-    border: 1px  solid white;
+    border: 1px  solid #333333;
     padding: 0.4625rem 1.275rem;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -892,13 +877,13 @@ https://templatemo.com/tm-516-known
   }
   
   .btn:before {
-    background-color: white;
+    background-color: #333333;
   }
   
   .btn:hover {
     -webkit-transition: color 400ms ease-in-out;
     transition: color 400ms ease-in-out;
-    color: #503f41;
+    color: #ffffff;
   }
   
   .btn:hover:before {
