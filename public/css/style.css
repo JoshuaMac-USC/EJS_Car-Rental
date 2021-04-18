@@ -623,20 +623,40 @@ https://templatemo.com/tm-516-known
 
   footer {
     background: #252020;
-    padding: 120px 0;
+    padding: 45px 25px 35px 25px;
+    color: whitesmoke;
+  }
+
+  footer span {
+    color:#909090;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+  .footer__company {
+    padding-right: 30px;
   }
 
   footer .section-title {
     padding-bottom: 10px;
   }
 
-  footer h2 {
-    font-size: 20px;
+  footer h1 {
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .footer__title {
+    font-size: 12px;
+    color: whitesmoke;
+    padding-bottom: 10px;
   }
 
   footer a,
   footer p {
     color: #909090;
+    font-size: 12px;
   }
 
   footer strong {
