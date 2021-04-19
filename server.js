@@ -26,6 +26,11 @@ app.get('/rentnow', function(req, res) {
     res.render('pages/rentpage');
 });
 
+// login page
+app.get('/login', function(req, res) {
+    res.render('pages/login');
+});
+
 //register page
 app.get('/register', function(req, res) {
     res.render('pages/register');
