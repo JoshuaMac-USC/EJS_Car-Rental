@@ -383,7 +383,9 @@
   /*---------------------------------------
       ABOUT              
   -----------------------------------------*/
-
+#about_us{
+  background-color: #EBEBEB;
+}
   /* #about figure {
     display: inline-block;
     vertical-align: top;
@@ -451,7 +453,21 @@
   .team-info h3 {
     margin: 0;
   }
+  /*CARDS FOR RENT PAGE*/
+  .cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 100px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
 
+.cards * {
+    box-sizing: border-box;
+}
   /*---------------------------------------
       COURSES             
   -----------------------------------------*/
