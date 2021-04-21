@@ -1,82 +1,61 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="header__section">
+    <nav class="navbar navbar-expand-lg">
 
-    <a class="navbar-brand" href="#">LOGO</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <a class="navbar-brand" href="#">LOGO</a>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/#about_us">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/register#reg">Register</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/login#form">Login</a>
-        </li>        
-      </ul>
-
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item d-flex">
-          <div class="container">
-            <!--
-            <button type="button" class="btn btn-info btn-round" data-toggle="modal" data-target="#registerModal">
-              Register
-            </button> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#about_us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#contact">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/register#reg">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login#form">Login</a>
+          </li>        
+        </ul>
+      </div>
+    </nav>
   
-            <button type="button" class="btn btn-info btn-round" data-toggle="modal" data-target="#loginModal">
-              Login
-            </button> 
-          -->
-          </div>
-        </li>
-      </ul>
-     
-    </div>
-  </nav>
-  
-  
-
-  <section class="hero">
-
-    <div class="container">
+    <div class="container pt-5 pb-5">
       <div class="row flex-column-reverse flex-md-row">
-
+  
         <div class="col-md-4">
           <%- include('../partials/form'); %>
         </div>
-
+  
         <div class="col-md-8">
           <div class="hero__content pl-5 ml-5 pb-5">
             <h1>UNSTOPPABLE</h1>
             <h2>Car Rentals</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia magni atque nostrum cumque <br> Officia magni atque nostrum cumque</p>
-            
+              
             <a href="/rentnow#catalog" class="btn">
               <span>Rent Now</span>
             </a>
           </div>
         </div>
-  
       </div>
     </div>
-  </section>
 
-<!-- Modal for Login -->
-  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <%- include('../partials/loginform'); %>
+  
+  
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <%- include('../partials/loginform'); %>
+      </div>
+    </div>
   </div>
+  
 
-<!--Modal for Register
-<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <%- include('../partials/registerform'); %>
-</div>
---> 
