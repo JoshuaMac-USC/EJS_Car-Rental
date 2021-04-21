@@ -199,15 +199,42 @@
 
   .header__section {
     position: relative;
-    background-image: url("../images/header-bg.jpg");
+    background-image: url("../images/Sun-Tornado.svg");
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 95vh;
     height: 100%;
   }
+
+/* DIVIDER */
 
  .hero__content h2, .hero__content p {
     color: #FFFFFF;
   }
+
+
+  .custom-shape-divider-bottom-1619036141 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1619036141 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 95px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1619036141 .shape-fill {
+    fill: #FFFFFF;
+}
+
 
   /*---------------------------------------
      BUTTONS               
@@ -383,9 +410,48 @@
   /*---------------------------------------
       ABOUT              
   -----------------------------------------*/
-#about_us{
-  background-color: #EBEBEB;
+#about{
+  background-color:  #EBEBEB;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
+
+.section-title__about h2{
+  font-size: 22px;
+}
+
+.sub-header h3{
+  font-size: 14px;
+}
+
+/* DIVIDER */
+
+.custom-shape-divider-bottom-1619035924 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1619035924 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1619035924 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
   /* #about figure {
     display: inline-block;
     vertical-align: top;
