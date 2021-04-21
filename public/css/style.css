@@ -920,13 +920,7 @@
   BUTTON STYLE OVERRIDE
 ********************************************/
 
-.hero__content h1{
-  margin-bottom: 0;
-  background: -webkit-linear-gradient(hsl(29, 78%, 44%), hsl(22, 64%, 58%), transparent);
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 .hero__content h2 {
   padding-bottom: 2rem;
