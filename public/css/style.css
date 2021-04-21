@@ -83,7 +83,7 @@
   }
 
   a:hover, a:active, a:focus {
-    color: #29ca8e;
+    color: #FFFFFF;
     outline: none;
   }
 
@@ -535,6 +535,8 @@
     box-sizing: border-box;
     border-radius: 5px;
 }
+
+
   /*---------------------------------------
       COURSES             
   -----------------------------------------*/
@@ -696,8 +698,8 @@
 
   #contact-form input[type='submit']:hover {
     background: transparent;
-    border-color: #E0E0E0;
     color: #E0E0E0;
+    background-color: #8a2be2;
   }
   
   .contact__image {
@@ -929,7 +931,9 @@
 .hero__content p {
   margin-bottom: 2.25rem;
 }
-
+#rentbtn:before{
+background-color: #7c26cb;
+}
   .btn {
     display: inline-block;
     color: #333333;
@@ -960,7 +964,7 @@
   }
   
   .btn:before {
-    background-color: #333333;
+    background-color: #893101;
   }
   
   .btn:hover {
