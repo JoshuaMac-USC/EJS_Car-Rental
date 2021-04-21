@@ -412,12 +412,9 @@
   -----------------------------------------*/
 #about{
   background-color:  #EBEBEB;
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 50px;
   position: relative;
-  width: 100%;
-  height: 100%;
+  
 }
 
 .section-title__about h2{
@@ -427,6 +424,31 @@
 .sub-header h3{
   font-size: 14px;
 }
+
+.about__img {
+  height: 100px;
+}
+
+.figure__one {
+  background-image: url("../images/figure1.png");
+  background-repeat: no-repeat; background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.figure__two {
+  background-image: url("../images/figure2.png");
+  background-repeat: no-repeat; background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+.figure__three {
+  background-image: url("../images/figure3.png");
+  background-repeat: no-repeat; background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
 
 /* DIVIDER */
 
